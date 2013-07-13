@@ -1,0 +1,5 @@
+assets/**/*
+assets/*
+protected/runtime/*
+.DS_Store
+!.gitignore

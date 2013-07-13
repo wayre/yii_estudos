@@ -1,0 +1,107 @@
+Searching 56 files for "class="row " (regex)
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/cliente/_form.php:
+  100  	</div>
+  101  
+  102: 	<div class="row buttons">
+  103  		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+  104  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/cliente/_search.php:
+   87  	</div>
+   88  
+   89: 	<div class="row buttons">
+   90  		<?php echo CHtml::submitButton('Search'); ?>
+   91  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/clienteTipo/_form.php:
+   22  	</div>
+   23  
+   24: 	<div class="row buttons">
+   25  		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+   26  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/clienteTipo/_search.php:
+   22  	</div>
+   23  
+   24: 	<div class="row buttons">
+   25  		<?php echo CHtml::submitButton('Search'); ?>
+   26  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/pedido/_form.php:
+   76  	</div>
+   77  
+   78: 	<div class="row buttons">
+   79  		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+   80  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/pedido/_search.php:
+   67  	</div>
+   68  
+   69: 	<div class="row buttons">
+   70  		<?php echo CHtml::submitButton('Search'); ?>
+   71  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/produto/_form.php:
+   64  	</div>
+   65  
+   66: 	<div class="row buttons">
+   67  		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+   68  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/produto/_search.php:
+   57  	</div>
+   58  
+   59: 	<div class="row buttons">
+   60  		<?php echo CHtml::submitButton('Search'); ?>
+   61  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/produtoGrupo/_form.php:
+   22  	</div>
+   23  
+   24: 	<div class="row buttons">
+   25  		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+   26  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/produtoGrupo/_search.php:
+   22  	</div>
+   23  
+   24: 	<div class="row buttons">
+   25  		<?php echo CHtml::submitButton('Search'); ?>
+   26  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/site/contact.php:
+   75  	<?php endif; ?>
+   76  
+   77: 	<div class="row buttons">
+   78  		<?php echo CHtml::submitButton('Submit'); ?>
+   79  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/site/login.php:
+   40  	</div>
+   41  
+   42: 	<div class="row rememberMe">
+   43  		<?php echo $form->checkBox($model,'rememberMe'); ?>
+   44  		<?php echo $form->label($model,'rememberMe'); ?>
+   ..
+   46  	</div>
+   47  
+   48: 	<div class="row buttons">
+   49  		<?php echo CHtml::submitButton('Login'); ?>
+   50  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/tag/_form.php:
+   22  	</div>
+   23  
+   24: 	<div class="row buttons">
+   25  		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+   26  	</div>
+
+/Users/wayre/Sites/www/estudos/yii_estudos/protected/views/tag/_search.php:
+   22  	</div>
+   23  
+   24: 	<div class="row buttons">
+   25  		<?php echo CHtml::submitButton('Search'); ?>
+   26  	</div>
+
+15 matches across 14 files

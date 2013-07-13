@@ -1,0 +1,52 @@
+H1,H2,H3,H4,H5,H6
+{
+	color:#4E4E4E;
+	font-family:Nobile,Arial,sans-serif!important;
+}
+
+#main-container
+{
+	margin-top:30px
+}
+
+#sidebar .well
+{
+	padding:19px 0
+}
+
+#sidebar li.active a
+{
+	border-left:solid 4px #656488
+}
+
+#sidebar li a
+{
+	border-left:solid 4px transparent
+}
+
+#sidebar li a:hover
+{
+	border-color:#656488
+}
+
+@media (max-width: 767px) {
+	body
+	{
+		padding:0
+	}
+}
+
+@media (max-width: 980px) {
+	.navbar-text.pull-right
+	{
+		float:none;
+		padding-left:5px;
+		padding-right:5px
+	}
+	
+	.container-fluid
+	{
+		padding-left:5px;
+		padding-right:5px
+	}
+}
