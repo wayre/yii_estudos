@@ -71,7 +71,7 @@
           'class'=>'bootstrap.widgets.TbMenu',
           'htmlOptions'=>array('class'=>'pull-right'),
           'items'=>array(
-            array('label'=>Yii::app()->user->nome, 'url'=>'#', 'items'=>array(
+            array('label'=>isset(Yii::app()->user->nome) ? Yii::app()->user->nome : null, 'url'=>'#', 'items'=>array(
               array('label'=>'Configurações', 'url'=>'#'),
               '---',
               array('label'=>'Logout', 'url'=>array('/site/logout')),

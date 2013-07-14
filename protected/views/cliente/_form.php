@@ -20,7 +20,7 @@
 			<?php echo $form->textFieldRow($model,'id', array('disabled'=>true, 'class'=>'span12')); ?>
 		</div>
 		<div class="span3">
-			<?php echo $form->textFieldRow($model,'id_usuario', array('disabled'=>true, 'value'=> Yii::app()->user->id, 'class'=>'span12')); ?>
+			<?php echo $form->textFieldRow($model,'id_usuario', array('readonly'=>true, 'value'=> Yii::app()->user->id, 'class'=>'span12')); ?>
 		</div>
 	</div>
 	<div class="row-fluid">

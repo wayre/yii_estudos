@@ -29,7 +29,7 @@ $this->breadcrumbs=array(
 	<div class="row-fluid">
 		<?php echo $form->passwordField($model,'password'); ?>
 		<p class="hint">
-			Dica: Você pode entrar com <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
+			Dica: Você pode entrar com <kbd>admin</kbd>/<kbd>admin</kbd> or <kbd>vendedor</kbd>/<kbd>vendedor</kbd>.
 		</p>
 	</div>
 
