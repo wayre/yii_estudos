@@ -48,7 +48,10 @@ return array(
 
 	// application components
 	'components'=>array(
-		
+		'clientScript' => array(
+		    'coreScriptPosition' => CClientScript::POS_END,
+		),
+
 		// adicionado componentes bootstrap
 		'bootstrap'=>array(
 			'class'=>'ext.bootstrap.components.Bootstrap',

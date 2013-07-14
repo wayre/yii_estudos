@@ -255,15 +255,6 @@ END ;;
 DELIMITER ;
 
 
-INSERT INTO `yii_cliente_tipos` (`id`, `nome`)
-VALUES
-	(1, 'Pessoa Física'),
-	(2, 'Pessoa Jurídica');
-
-INSERT INTO `yii_clientes` (`id`, `id_tipo`, `id_usuario`, `nome`, `email`, `endereco`, `numero`, `bairro`, `cidade`, `uf`, `cep`, `cnpj`, `cpf`, `dt_criacao`, `dt_alteracao`)
-VALUES
-	(3, 1, 1, 'Cliente Teste Sample', 'clisample@demo.com', '', '', '', '', '', '', NULL, NULL, '2013-07-13 16:20:02', '2013-07-13 16:20:11');
-
 INSERT INTO `yii_usuario_grupos` (`id`, `nome`)
 VALUES
 	(1, 'admin'),
@@ -273,3 +264,13 @@ INSERT INTO `yii_usuarios` (`id`, `id_grupo`, `user`, `pass`, `nome`, `email`, `
 VALUES
 	(1, 1, 'admin', 'admin', 'Administrador', 'admin@demo.com', NULL, NULL, NULL, NULL, NULL, NULL),
 	(2, 2, 'vendedor', 'vendedor', 'Vendedor', 'vendedor@demo.com', NULL, NULL, NULL, NULL, NULL, NULL);
+
+INSERT INTO `yii_cliente_tipos` (`id`, `nome`)
+VALUES
+	(1, 'Pessoa Física'),
+	(2, 'Pessoa Jurídica');
+
+INSERT INTO `yii_clientes` (`id`, `id_tipo`, `id_usuario`, `nome`, `email`, `endereco`, `numero`, `bairro`, `cidade`, `uf`, `cep`, `cnpj`, `cpf`, `dt_criacao`, `dt_alteracao`)
+VALUES
+	(3, 1, 1, 'Cliente Teste Sample', 'clisample@demo.com', '', '', '', '', '', '', NULL, NULL, '2013-07-13 16:20:02', '2013-07-13 16:20:11');
+
