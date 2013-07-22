@@ -84,6 +84,7 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
+            if (Yii::app()->user->isGuest){
 		$model=new LoginForm;
 
 		// collect user input data
@@ -100,6 +101,11 @@ class SiteController extends Controller
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));
+            }
+            //usuário já está logado no sistema
+            else{
+                $this->redirect(array('site/index'));
+            }
 	}
 
 	/**
